@@ -1,13 +1,15 @@
 package org.alog_ds.practice;
 
-import org.alog_ds.practice.sort.MyBubbleSort;
-import org.alog_ds.practice.sort.MyInsertionSort;
-import org.alog_ds.practice.sort.MySelectionSort;
+import org.alog_ds.practice.sort.*;
 
 public class Main {
     public static void main(String[] args) {
 
-        int[] arr = {4,1,7,-12,33,2,7};
-        MyInsertionSort.insertionSort(arr);
+        int[] arrays = {4,1,7,-12,33,2,7};
+       MyMergeSort.mergeSort(arrays,0,arrays.length);
+
+        for (int array : arrays) {
+            System.out.println(array);
+        }
     }
 }

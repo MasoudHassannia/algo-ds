@@ -13,9 +13,5 @@ public class MyInsertionSort {
 
             arrays[j] = smallElement;
         }
-
-        for (int array : arrays) {
-            System.out.println(array);
-        }
     }
 }

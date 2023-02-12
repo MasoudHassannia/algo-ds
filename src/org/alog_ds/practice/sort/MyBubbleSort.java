@@ -14,10 +14,6 @@ public class MyBubbleSort {
                     swap(arrays, j, j + 1);
             }
         }
-
-        for (int array : arrays) {
-            System.out.println(array);
-        }
     }
 
     public static void bubbleSortJava8(int[] arrays) {
@@ -31,10 +27,6 @@ public class MyBubbleSort {
                         swap(arrays, j, j - 1);
                     }
                 });
-
-        for (int array : arrays) {
-            System.out.println(array);
-        }
     }
 
     private static void swap(int[] arrays, int i, int j) {
